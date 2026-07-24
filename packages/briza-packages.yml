@@ -1,0 +1,33 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/briza-insurance + https://registry.npmjs.org
+note: >-
+  First-party open-source utility libraries published by the briza-insurance
+  GitHub org and the @briza npm scope. These are developer libraries (a rules
+  DSL engine and a validation library), not API client SDKs — Briza does not
+  publish a public web API, so no client SDK exists.
+packages:
+- language: javascript
+  registry: npm
+  name: "@briza/illogical"
+  url: https://www.npmjs.com/package/@briza/illogical
+  install: npm install @briza/illogical
+  version: 2.2.3
+  license: MIT
+  repository: https://github.com/briza-insurance/illogical
+  description: >-
+    A micro conditional JavaScript/TypeScript engine that parses raw logical and
+    comparison expressions, evaluates them in a given data context, and provides
+    a text form of the expressions. JSON DSL for expressing and evaluating
+    business rules. Zero third-party dependencies.
+  official: true
+- language: javascript
+  registry: npm
+  name: "@briza/wegood"
+  url: https://www.npmjs.com/package/@briza/wegood
+  install: npm install @briza/wegood
+  version: 1.0.12
+  license: MIT
+  repository: https://github.com/briza-insurance/wegood
+  description: Tiny data-validation library.
+  official: true
