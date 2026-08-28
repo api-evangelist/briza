@@ -10,6 +10,17 @@ description: >-
   developer libraries under the briza-insurance GitHub org, including illogical
   (a JSON DSL rules engine) and wegood (a validation library). Briza does not
   currently publish a public developer API or OpenAPI specification.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
